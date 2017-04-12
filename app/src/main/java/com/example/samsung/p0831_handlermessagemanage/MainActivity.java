@@ -34,5 +34,10 @@ public class MainActivity extends AppCompatActivity {
         handler.sendEmptyMessageDelayed(1, 1000);
         handler.sendEmptyMessageDelayed(2, 2000);
         handler.sendEmptyMessageDelayed(3, 3000);
+        handler.sendEmptyMessageDelayed(2, 4000);
+        handler.sendEmptyMessageDelayed(4, 5000);
+        handler.sendEmptyMessageDelayed(2, 6000);
+        handler.sendEmptyMessageDelayed(5, 7000);
+        handler.removeMessages(2);
     }
 }
